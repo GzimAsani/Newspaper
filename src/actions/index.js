@@ -17,3 +17,9 @@ export const fetchUsers = (id) => async dispatch => {
 
   dispatch({ type: 'FETCH_USERS', payload: response.data })
 };
+
+export const fetchTodos = () => async dispatch => {
+  const response = await jsonplaceholder.get('/todos');
+
+  dispatch({ type: 'FETCH_TODOS', payload: response.data })
+}
