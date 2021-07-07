@@ -17,3 +17,14 @@ test('filterReducer can change filter ', () => {
     current: 'Select',
   });
 });
+
+test('filterReducer can change filter ', () => {
+  const action = {
+    type: 'CHANGE_FILTER',
+    filter: 'Todos',
+  };
+  expect(filterReducer(initialState, action)).toEqual({
+    ...initialState,
+    current: 'Select',
+  });
+});
