@@ -1,4 +1,4 @@
-import { useDispatch, useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
 import StatusFilter from '../components/statusFilter';
 import GetPosts from '../components/getPosts';
 import UserTodo from '../components/userTodo';
