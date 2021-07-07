@@ -1,5 +1,5 @@
 import React from 'react';
-import StatusFilter from './StatusFilter';
+import StatusFilter from './statusFilter';
 import { fetchTodos } from '../actions';
 import { connect } from 'react-redux';
 import GetUsers from './getUsers';

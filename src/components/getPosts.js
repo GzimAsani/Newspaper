@@ -1,8 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { fetchPosts } from '../actions';
-// import GetUsers from './getUsers';
-import StatusFilter from './StatusFilter';
+import GetUsers from './getUsers';
+import StatusFilter from './statusFilter';
 
 class getPosts extends React.Component {
 
@@ -20,7 +20,7 @@ class getPosts extends React.Component {
               {post.title}
             </h5>
             <div className="card-text text-success">{post.body}</div>
-            {/* <GetUsers userId={post.userId} /> */}
+            <GetUsers userId={post.userId} />
           </div>
         </div>
       )

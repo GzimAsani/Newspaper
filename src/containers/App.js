@@ -1,8 +1,7 @@
 import React from 'react';
-import GetPosts from '../components/getPosts';
-import Navbar from '../components/Navbar';
+import Navbar from '../components/navbar';
 import UserShow from '../components/userShow';
-import Main from '../components/Main';
+import Main from '../components/main';
 import ShowPage from './showPage';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 

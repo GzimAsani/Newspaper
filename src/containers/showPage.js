@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux';
-import StatusFilter from '../components/StatusFilter';
+import StatusFilter from '../components/statusFilter';
 import GetPosts from '../components/getPosts';
 import UserTodo from '../components/userTodo';
 
