@@ -22,4 +22,9 @@ export const fetchTodos = () => async dispatch => {
   const response = await jsonplaceholder.get('/todos');
 
   dispatch({ type: 'FETCH_TODOS', payload: response.data })
-}
+};
+
+export const filterUsers = filter => ({
+  type: 'FILTER_USERS',
+  filter,
+});
