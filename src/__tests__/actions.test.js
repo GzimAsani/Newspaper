@@ -1,5 +1,5 @@
 import {
-  fetchPosts, fetchUser, fetchUsers, fetchTodos, filterUsers
+  filterUsers,
 } from '../actions';
 
 test('changeFilter returns CHANGE_FILTER', () => {

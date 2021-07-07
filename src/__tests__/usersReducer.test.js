@@ -1,9 +1,9 @@
-import usersReducer from "../reducers/usersReducer";
+import usersReducer from '../reducers/usersReducer';
 
 test('Reducer can FETCH_TODOS', () => {
   const action = { type: 'FETCH_USERS' };
-  const state = []
+  const state = [];
   expect(usersReducer(state, action)).toEqual(
-    [undefined]
+    [undefined],
   );
 });
