@@ -2,9 +2,9 @@ import { useDispatch, useSelector } from 'react-redux';
 import { filterUsers } from '../actions';
 
 const StatusFilter = () => {
-  const filter = useSelector(state => state.filter);
+  const filter = useSelector((state) => state.filter);
   const dispatch = useDispatch();
-  const handleChange = e => {
+  const handleChange = (e) => {
     dispatch(filterUsers(e.target.value));
   };
   return (

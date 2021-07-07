@@ -3,6 +3,6 @@ export default (state = [], action) => {
     case 'FETCH_USER':
       return { ...state, [action.payload.id]: action.payload };
     default:
-      return state
+      return state;
   }
-}
+};

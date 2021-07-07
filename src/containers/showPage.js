@@ -4,20 +4,19 @@ import GetPosts from '../components/getPosts';
 import UserTodo from '../components/userTodo';
 
 const ShowPage = () => {
-  const filter = useSelector(state => state.filter);
+  const filter = useSelector((state) => state.filter);
 
   const handleChange = () => {
     if (filter.current === 'Posts' || filter.current === 'Select') {
-      return < GetPosts />;
-    } else
-      return < UserTodo />
+      return <GetPosts />;
+    } return <UserTodo />;
   };
 
   return (
-    < StatusFilter />,
+    <StatusFilter />,
     handleChange()
 
   );
-}
+};
 
 export default ShowPage;

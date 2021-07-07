@@ -1,17 +1,15 @@
 import React from 'react';
-import Image from '../assets/newspaper.jpg'
-class Main extends React.Component {
+import Image from '../assets/newspaper.jpg';
 
-  render() {
+const Main = () => {
     return (
       <div className=" text-center">
         <h1 className="text-success">
           Unnamed NewsPaper
         </h1>
-        <img src={Image} className="img-fluid" alt="Photo" />
+        <img src={Image} className="img-fluid" alt="Newspaper photo" />
       </div>
     );
-  };
-};
+}
 
 export default Main;
