@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <nav
+      className="navbar navbar-expand-lg navbar-light bg-light"
+    >
+      <div
+        className="container-fluid"
+      >
+        <button
+          className="navbar-brand text-success btn btn-outline-info "
+          type="button"
+        >
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+             BACK 
+          </a>
+        </button>
+        <button
+          type="button"
+        >
+          <a
+            href="/posts"
+            onClick={[Function]}
+          >
+            POSTS
+          </a>
+        </button>
+      </div>
+      <div />
+    </nav>
+  </div>
+  <div
+    className=" text-center"
+  >
+    <h1
+      className="text-success"
+    >
+      Unnamed NewsPaper
+    </h1>
+    <img
+      alt="Newspaper photo"
+      className="img-fluid"
+      src="newspaper.jpg"
+    />
+  </div>
+</div>
+`;

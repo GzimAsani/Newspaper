@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className=""
+>
+  <nav
+    className="navbar navbar-expand-lg navbar-light bg-light"
+  >
+    <div
+      className="container-fluid"
+    >
+      <button
+        className="navbar-brand text-success btn btn-outline-info "
+        type="button"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+           BACK 
+        </a>
+      </button>
+      <button
+        type="button"
+      >
+        <a
+          href="/posts"
+          onClick={[Function]}
+        >
+          POSTS
+        </a>
+      </button>
+    </div>
+    <div />
+  </nav>
+</div>
+`;

@@ -5,14 +5,13 @@ import { fetchUser } from '../actions';
 class userShow extends React.Component {
   componentDidMount() {
     this.props.fetchUser(this.props.match.params.id);
-    
   }
 
   render() {
     if (!this.props.user) {
       return <div>Loading!!!</div>;
     }
-  
+
     return (
       <div className="d-flex">
         <div className="card justify-content-center">

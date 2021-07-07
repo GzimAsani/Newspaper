@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className=" text-center"
+>
+  <h1
+    className="text-success"
+  >
+    Unnamed NewsPaper
+  </h1>
+  <img
+    alt="Newspaper photo"
+    className="img-fluid"
+    src="newspaper.jpg"
+  />
+</div>
+`;

@@ -9,6 +9,8 @@ class getPosts extends React.Component {
     this.props.fetchPosts();
   }
 
+  
+
   returnPost = () => this.props.posts.map((post) => (
     <div className="card container d-flex" key={post.id}>
       <div className="card-body">
@@ -23,7 +25,6 @@ class getPosts extends React.Component {
 
   render() {
     return (
-
       <div>
         <StatusFilter />
         {this.returnPost()}
