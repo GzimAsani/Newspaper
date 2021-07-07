@@ -40,8 +40,6 @@ class UserTodo extends React.Component {
   }
 }
 
-const getMapToProps = (state) => {
-  return { todos: state.todos };
-};
+const getMapToProps = (state) => ({ todos: state.todos });
 
 export default connect(getMapToProps, { fetchTodos })(UserTodo);
