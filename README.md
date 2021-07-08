@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# Capstone React-Redux project
 
 
 
-Bookstore app build with React
+Newspaper app build with React and redux. In this project you can check the latest posts and todos of our authors. Also you can check the information such as email and phone number of our authors.
 
 
 
