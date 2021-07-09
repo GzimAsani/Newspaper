@@ -1,4 +1,4 @@
-# Capstone React-Redux project
+# Capstone React-Redux project (Catalogue of Recipes)
 
 
 
