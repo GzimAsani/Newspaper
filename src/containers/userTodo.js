@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import StatusFilter from './statusFilter';
+import StatusFilter from '../components/statusFilter';
 import { fetchTodos } from '../actions';
 import GetUsers from './getUsers';
 

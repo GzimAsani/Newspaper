@@ -1,7 +1,7 @@
 import { useSelector } from 'react-redux';
-import StatusFilter from '../components/statusFilter';
-import GetPosts from '../components/getPosts';
-import UserTodo from '../components/userTodo';
+import StatusFilter from './statusFilter';
+import GetPosts from '../containers/getPosts';
+import UserTodo from '../containers/userTodo';
 
 const ShowPage = () => {
   const filter = useSelector((state) => state.filter);

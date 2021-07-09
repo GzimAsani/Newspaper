@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Navbar from '../components/navbar';
-import UserShow from '../components/userShow';
+import UserShow from './userShow';
 import Main from '../components/main';
-import ShowPage from './showPage';
+import ShowPage from '../components/showPage';
 
 const App = () => (
   <div>

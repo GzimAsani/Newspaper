@@ -6,7 +6,7 @@ const Main = () => (
     <h1 className="text-success">
       Unnamed NewsPaper
     </h1>
-    <img src={Image} className="img-fluid" alt="Newspaper photo" />
+    <img src={Image} className="img-fluid" alt="Newspaper" />
   </div>
 );
 

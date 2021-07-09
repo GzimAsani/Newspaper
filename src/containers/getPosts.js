@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { fetchPosts } from '../actions';
 import GetUsers from './getUsers';
-import StatusFilter from './statusFilter';
+import StatusFilter from '../components/statusFilter';
 
 class getPosts extends React.Component {
   componentDidMount() {

@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { filterUsers } from '../actions';
-import style from '../assets/filter.css'
+import style from '../assets/filter.css';
 
 const StatusFilter = () => {
   const filter = useSelector((state) => state.filter);
@@ -9,7 +9,7 @@ const StatusFilter = () => {
     dispatch(filterUsers(e.target.value));
   };
   return (
-    <select name="filter" className={style.color}id="filter" onChange={handleChange}>
+    <select name="filter" className={style.color} id="filter" onChange={handleChange}>
       {filter.possible.map((possibleFilter, index) => (
         <option value={possibleFilter} key={String(index)}>
           {possibleFilter}
