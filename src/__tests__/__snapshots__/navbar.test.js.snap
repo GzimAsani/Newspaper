@@ -15,7 +15,7 @@ exports[`renders correctly 1`] = `
         type="button"
       >
         <a
-          href="/"
+          href="/posts"
           onClick={[Function]}
         >
            BACK 

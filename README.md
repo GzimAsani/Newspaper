@@ -4,7 +4,7 @@
 
 Newspaper app build with React and redux. In this project you can check the latest posts and todos of our authors. Also you can check the information such as email and phone number of our authors.
 
-
+![img](./src/assets/pic.png)
 
 ## Live server
 <button> <a href="https://elated-curran-5872a0.netlify.app/"> Live demo!</a> </button>

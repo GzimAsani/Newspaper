@@ -10,7 +10,7 @@ exports[`renders correctly 1`] = `
     Unnamed NewsPaper
   </h1>
   <img
-    alt="Newspaper photo"
+    alt="Newspaper"
     className="img-fluid"
     src="newspaper.jpg"
   />
